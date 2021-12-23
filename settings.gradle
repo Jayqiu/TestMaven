@@ -3,9 +3,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url "https://raw.githubusercontent.com/Jayqiu/TestMaven/main"
-        }
+//        maven {
+//            url "https://raw.githubusercontent.com/Jayqiu/TestMaven/main"
+//        }
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "TestMaven"
