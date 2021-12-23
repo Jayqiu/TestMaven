@@ -6,7 +6,17 @@ dependencyResolutionManagement {
 //        maven {
 //            url "https://raw.githubusercontent.com/Jayqiu/TestMaven/main"
 //        }
-        maven { url 'https://jitpack.io' }
+        maven {
+            url 'https://jitpack.io'
+            credentials { username "jp_m1s0ec2c203ersbcm1vlreoikh" }
+        }
+        maven {
+            credentials {
+                username '61c44352a96ac5d9b0c72a65'
+                password 'AVAvp1[1]Vs6'
+            }
+            url 'https://packages.aliyun.com/maven/repository/2170321-snapshot-ar8lZc/'
+        }
     }
 }
 rootProject.name = "TestMaven"
