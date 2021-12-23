@@ -3,9 +3,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+//        maven{ url "https://raw.githubusercontent.com/Jayqiu/TestMaven/main"}
     }
 }
 rootProject.name = "TestMaven"
 include ':app'
-//include ':test'
-include ':test_module'
+include ':test_maven'
