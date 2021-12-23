@@ -6,7 +6,10 @@ package com.example.test_maven
  * @description:
  */
 public class Test {
-    companion object{
-        const val time=1000
+    companion object {
+        private const val time = 1000
+        fun getTime(): Int {
+            return time * 10
+        }
     }
 }
